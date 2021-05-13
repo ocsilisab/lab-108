@@ -20,11 +20,8 @@ Ready?
 
 You have to solve the different problems in the `starter-code/index.js` file. This Javascript file is included in the `starter-code/index.html`. 
 
-You can easily open the HTML in Chrome, by typing in your terminal:
- 
- ```
- $ open starter-code/index.html
- ```
+
+To test that it works, click on the Live Server button that is located on the bottom-right corner of VSCode:
 
 After you open it, you can open the `Chrome Developer Tools` and see the `console.log`  of your exercises.
 
@@ -43,7 +40,7 @@ Create the following functions:
 
 ### 1.1/ **fullName(person)**
 
-This function have to return the join of the firstName and the lastName attributes of the `person` argument with a space between them.
+This function has to return the join of the firstName and the lastName attributes of the `person` argument with a space between them.
 
 ```js
 E.g. { firstName : 'Luis' , lastName: 'Burón' }  =>   "Luis Burón"
@@ -99,11 +96,11 @@ Finally, if you have no friends in your chat application, the input will be an e
 
 All the components of a computer have a defined maximum temperature at which it can continue to function properly.
 
-But we know you, and sometimes when you play Fortnite, some of your components are overheating.
+But we know you, and sometimes when you play Fortnite, some of your components overheat.
 
 Your function will receive two parameters. `yourComputer` is an object that represents your computer with the current temperatures of its components in real time. `maxTemperatures` is the maximum temperature of all the components of a computer.
 
-Your function have to return another new object with the same components your computer have but indicating in the values `true` or `false` if the temperature is okay or in overheating respectively
+Your function has to return another new object with the same components your computer has but returning `true` if the temperature  of the component is okay or `false` if the component is overheating-
 
 ```js 
 var yourComputer = { 
@@ -163,7 +160,7 @@ strCount({
 
 ### 2/ **fullNameFormatted(person)**
 
-This bonus excersise is an update from the first one. This function have to return the join of the firstName and the lastName attributes of the `person` argument with a space between them. Also it have to transform the first letter of both values to upperCase if it is necessary. 
+This bonus excersise is an update from the first one. This function has to return the join of the firstName and the lastName attributes of the `person` argument with a space between them. Also it has to transform the first letter of both values to upperCase if necessary. 
 
 ```js
 E.g. { firstName : 'Luis' , lastName: 'burón' }  =>   "Luis Burón"
@@ -171,7 +168,7 @@ E.g. { firstName : 'Luis' , lastName: 'burón' }  =>   "Luis Burón"
 
 ### 3/ **fullNameFormattedv2(person)**
 
-This function have to return the join of the firstName and the lastName attributes of the `person` argument with a space between them. Also it have to transform the first letter of every word of both values to upperCase if it is necessary. In this case, you can receive as `lastName` value or `firstName` value a compound name. 
+This function has to return the join of the firstName and the lastName attributes of the `person` argument with a space between them. Also it has to transform the first letter of every word of both values to upperCase if it is necessary. In this case, you can receive as `lastName` or `firstName` value a compound name. 
 
 ```js
 E.g. { firstName : 'Luis Álvaro' , lastName: 'burón mejías' }  =>   "Luis Álvaro Burón Mejías"
