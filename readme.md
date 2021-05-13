@@ -107,7 +107,7 @@ var yourComputer = {
   cpu : 25,
   gpu : 45,
   motherBase : 15,
-  dvdDriver : 10,
+  dvdDriver : 25,
   rom : 5,
   ram : 10,
 }
@@ -124,12 +124,12 @@ var results = yourFunction(yourComputer, maxTemperatures);
 
 console.log(results); 
 /* { 
-    cpu : false,
-    gpu : true,
-    motherBase : false,
+    cpu : true,
+    gpu : false,
+    motherBase : true,
     dvdDriver : false,
-    rom : false,
-    ram : false
+    rom : true,
+    ram : true
   } 
 */
 ```
